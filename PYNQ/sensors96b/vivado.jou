@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Feb 14 22:48:20 2025
-# Process ID: 31528
+# Start of session at: Fri Feb 14 23:35:09 2025
+# Process ID: 15356
 # Current directory: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2584 C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2988 C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.xpr
 # Log file: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/vivado.log
 # Journal file: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b\vivado.jou
 # Running On: HackerbookAce, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 33492 MB
@@ -14,6 +14,33 @@
 start_gui
 open_project C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.xpr
 update_compile_order -fileset sources_1
+open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd}
+create_bd_cell -type module -reference simple simple_0
+set_property location {5 1515 693} [get_bd_cells simple_0]
+set_property location {4 1311 694} [get_bd_cells simple_0]
+connect_bd_net [get_bd_pins simple_0/clk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+create_bd_port -dir I LED
+set_property location {1769 667} [get_bd_ports LED]
+delete_bd_objs [get_bd_ports LED]
+create_bd_port -dir O LED
+set_property location {1714 692} [get_bd_ports LED]
+create_bd_port -dir O gpio_out
+startgroup
+connect_bd_net [get_bd_ports gpio_out] [get_bd_pins simple_0/led]
+endgroup
+set_property location {1708 680} [get_bd_ports gpio_out]
+set_property location {1715 693} [get_bd_ports gpio_out]
+save_bd_design
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd}
+set_property name gpiok [get_bd_ports gpio_out]
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+save_project_as gpiok_blink C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink -force
+import_files
+update_module_reference sensors96b_simple_0_0
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 16
 wait_on_run impl_1

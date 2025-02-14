@@ -1,0 +1,54 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.30644",
+   "Default View_TopLeft":"825,364",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port GPIO_SENSORS -pg 1 -lvl 6 -x 1700 -y 560 -defaultsOSRD
+preplace port port-id_BT_ctsn -pg 1 -lvl 0 -x 0 -y 800 -defaultsOSRD
+preplace port port-id_BT_rtsn -pg 1 -lvl 6 -x 1700 -y 620 -defaultsOSRD
+preplace port port-id_UART0_ctsn -pg 1 -lvl 0 -x 0 -y 360 -defaultsOSRD
+preplace port port-id_UART0_rtsn -pg 1 -lvl 6 -x 1700 -y 440 -defaultsOSRD
+preplace port port-id_UART0_rxd -pg 1 -lvl 0 -x 0 -y 770 -defaultsOSRD
+preplace port port-id_UART0_txd -pg 1 -lvl 6 -x 1700 -y 480 -defaultsOSRD
+preplace port port-id_UART1_rxd -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port port-id_UART1_txd -pg 1 -lvl 6 -x 1700 -y 250 -defaultsOSRD
+preplace port port-id_LED -pg 1 -lvl 6 -x 1700 -y 0 -defaultsOSRD
+preplace port port-id_gpiok -pg 1 -lvl 6 -x 1700 -y 690 -defaultsOSRD
+preplace inst axi_uart16550_0 -pg 1 -lvl 5 -x 1540 -y 450 -defaultsOSRD
+preplace inst axi_uart16550_1 -pg 1 -lvl 5 -x 1540 -y 240 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -x 720 -y 140 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 4 -x 1220 -y 200 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 290 -y 630 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 2 -x 290 -y 230 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 100 -y 300 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 3 -x 720 -y 630 -defaultsOSRD
+preplace inst simple_0 -pg 1 -lvl 4 -x 1220 -y 690 -defaultsOSRD
+preplace netloc UART0_ctsn 1 0 6 NJ 360 NJ 360 NJ 360 NJ 360 1430J 340 1650
+preplace netloc UART1_rxd_1 1 0 6 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 1650
+preplace netloc axi_uart16550_0_ip2intc_irpt 1 1 5 200 10 NJ 10 NJ 10 NJ 10 1660
+preplace netloc axi_uart16550_0_rtsn 1 5 1 NJ 440
+preplace netloc axi_uart16550_0_sout 1 5 1 NJ 480
+preplace netloc axi_uart16550_1_ip2intc_irpt 1 1 5 200 370 NJ 370 NJ 370 1420J 330 1650
+preplace netloc axi_uart16550_1_sout 1 5 1 NJ 250
+preplace netloc emio_uart0_ctsn_1 1 0 4 NJ 800 NJ 800 NJ 800 1010
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 3 1 N 160
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 3 2 1060 340 1410
+preplace netloc sin_1 1 0 6 NJ 770 180J 780 NJ 780 NJ 780 NJ 780 1650
+preplace netloc xlconcat_0_dout 1 2 1 NJ 630
+preplace netloc xlconcat_1_dout 1 2 1 380 230n
+preplace netloc xlconstant_0_dout 1 1 1 NJ 300
+preplace netloc zynq_ultra_ps_e_0_emio_uart0_rtsn 1 3 3 NJ 620 NJ 620 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 2 3 430 40 1070 380 1400
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 2 2 420 30 1020
+preplace netloc simple_0_led 1 4 2 NJ 690 N
+preplace netloc ps8_0_axi_periph_M00_AXI 1 4 1 1360 190n
+preplace netloc ps8_0_axi_periph_M01_AXI 1 4 1 N 210
+preplace netloc zynq_ultra_ps_e_0_GPIO_0 1 3 3 NJ 560 NJ 560 NJ
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 3 1 1080 120n
+levelinfo -pg 1 0 100 290 720 1220 1540 1700
+pagesize -pg 1 -db -bbox -sgen -140 -20 1860 820
+"
+}
+0

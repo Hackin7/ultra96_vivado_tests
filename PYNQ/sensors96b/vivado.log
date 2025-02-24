@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Feb 14 23:35:09 2025
-# Process ID: 31244
+# Start of session at: Mon Feb 24 21:07:50 2025
+# Process ID: 13180
 # Current directory: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9820 C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent83676 C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.xpr
 # Log file: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/vivado.log
 # Journal file: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b\vivado.jou
 # Running On: HackerbookAce, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 33492 MB
@@ -80,10 +80,203 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
-open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:17 . Memory (MB): peak = 1543.266 ; gain = 393.152
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 1532.477 ; gain = 376.961
 update_compile_order -fileset sources_1
-open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd}
-Reading block design file <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd>...
+save_project_as ps_pl_interface C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface -exclude_run_results -force
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface'
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/ip 
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Project 1-1161] Replacing file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/utils_1/imports/synth_1/simple.dcp with file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/synth_1/sensors96b.dcp
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+import_files
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
+open_project C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+current_project ps_pl_interface
+current_project sensors96b
+close_project
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+export_ip_user_files -of_objects  [get_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/simple.v] -no_script -reset -force -quiet
+remove_files  C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/simple.v
+close [ open C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_pl_out.v w ]
+add_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_pl_out.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_ps_out.v w ]
+add_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_ps_out.v
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+close [ open C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/ps_in_pl_out.v w ]
+add_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/ps_in_pl_out.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.gen\sources_1\bd\sensors96b\synth\sensors96b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd}
+Reading block design file <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd>...
 Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_0
 Adding component instance block -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_1
 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
@@ -94,142 +287,256 @@ Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
 Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
 Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
 Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.5 - zynq_ultra_ps_e_0
-Successfully read diagram <sensors96b> from block design file <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd>
-create_bd_cell -type module -reference simple simple_0
-INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
-WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
-WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
-set_property location {5 1515 693} [get_bd_cells simple_0]
-set_property location {4 1311 694} [get_bd_cells simple_0]
-INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
-INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
-WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
-connect_bd_net [get_bd_pins simple_0/clk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
-create_bd_port -dir I LED
-set_property location {1769 667} [get_bd_ports LED]
-delete_bd_objs [get_bd_ports LED]
-create_bd_port -dir O LED
-set_property location {1714 692} [get_bd_ports LED]
-create_bd_port -dir O gpio_out
+Successfully read diagram <sensors96b> from block design file <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd>
+delete_bd_objs [get_bd_intf_nets zynq_ultra_ps_e_0_GPIO_0] [get_bd_intf_ports GPIO_SENSORS]
+create_bd_port -dir I pl_in
+create_bd_cell -type module -reference pl_in_pl_out pl_in_pl_out_0
+create_bd_cell -type module -reference pl_in_ps_out pl_in_ps_out_0
+set_property location {5 1547 700} [get_bd_cells pl_in_pl_out_0]
+set_property location {-28 681} [get_bd_ports pl_in]
+connect_bd_net [get_bd_ports pl_in] [get_bd_pins pl_in_pl_out_0/pl_in]
+set_property location {1314 716} [get_bd_ports pl_in]
+set_property location {1773 690} [get_bd_ports pl_in]
+create_bd_port -dir I pl_out
+delete_bd_objs [get_bd_ports pl_out]
+create_bd_port -dir O pl_out_from_pl
 startgroup
-connect_bd_net [get_bd_ports gpio_out] [get_bd_pins simple_0/led]
+connect_bd_net [get_bd_ports pl_out_from_pl] [get_bd_pins pl_in_pl_out_0/pl_out]
 endgroup
-set_property location {1708 680} [get_bd_ports gpio_out]
-set_property location {1715 693} [get_bd_ports gpio_out]
+set_property location {1712 717} [get_bd_ports pl_out_from_pl]
+create_bd_cell -type module -reference ps_in_pl_out ps_in_pl_out_0
+connect_bd_net [get_bd_ports pl_in] [get_bd_pins pl_in_ps_out_0/A]
+create_bd_port -dir I pl_out_from_ps
+delete_bd_objs [get_bd_ports pl_out_from_ps]
+set_property location {1404 994} [get_bd_ports pl_in]
+create_bd_port -dir I pl_out_from_ps
+delete_bd_objs [get_bd_ports pl_out_from_ps]
+create_bd_port -dir O pl_out_from_ps
+connect_bd_net [get_bd_ports pl_out_from_ps] [get_bd_pins ps_in_pl_out_0/B]
+create_bd_port -dir I emgpio1
+delete_bd_objs [get_bd_ports emgpio1]
+create_bd_port -dir IO emgpio1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_0
+endgroup
+set_property location {4 1249 709} [get_bd_cells xlslice_0]
+startgroup
+connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/emio_gpio_o] [get_bd_pins xlslice_0/Din]
+WARNING: [BD 41-1306] The connection to interface pin </zynq_ultra_ps_e_0/emio_gpio_o> is being overridden by the user with net <zynq_ultra_ps_e_0_emio_gpio_o>. This pin will not be connected as a part of interface connection <GPIO_0>.
+endgroup
+startgroup
+set_property -dict [list \
+  CONFIG.DIN_FROM {1} \
+  CONFIG.DIN_TO {1} \
+  CONFIG.DIN_WIDTH {5} \
+] [get_bd_cells xlslice_0]
+endgroup
+startgroup
+set_property CONFIG.DIN_WIDTH {6} [get_bd_cells xlslice_0]
+endgroup
+startgroup
+endgroup
+set_property location {4 1263 984} [get_bd_cells xlslice_0]
+set_property location {4 1220 952} [get_bd_cells xlslice_0]
+set_property location {4 1228 1011} [get_bd_cells xlslice_0]
+delete_bd_objs [get_bd_ports emgpio1]
+create_bd_port -dir O emgpio1
+startgroup
+connect_bd_net [get_bd_ports emgpio1] [get_bd_pins xlslice_0/Dout]
+endgroup
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins ps_in_pl_out_0/A]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_1
+endgroup
+set_property -dict [list \
+  CONFIG.DIN_FROM {2} \
+  CONFIG.DIN_TO {2} \
+  CONFIG.DIN_WIDTH {6} \
+] [get_bd_cells xlslice_1]
+delete_bd_objs [get_bd_nets zynq_ultra_ps_e_0_emio_gpio_o]
+connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/emio_gpio_o] [get_bd_pins xlslice_0/Din]
+WARNING: [BD 41-1306] The connection to interface pin </zynq_ultra_ps_e_0/emio_gpio_o> is being overridden by the user with net <zynq_ultra_ps_e_0_emio_gpio_o>. This pin will not be connected as a part of interface connection <GPIO_0>.
+delete_bd_objs [get_bd_cells xlslice_1]
+connect_bd_net [get_bd_pins pl_in_ps_out_0/B] [get_bd_pins zynq_ultra_ps_e_0/emio_gpio_i]
+WARNING: [BD 41-1306] The connection to interface pin </zynq_ultra_ps_e_0/emio_gpio_i> is being overridden by the user with net <pl_in_ps_out_0_B>. This pin will not be connected as a part of interface connection <GPIO_0>.
+delete_bd_objs [get_bd_nets pl_in_ps_out_0_B]
 save_bd_design
-Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
-Wrote  : <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/ui/bd_8fbff26c.ui> 
-update_compile_order -fileset sources_1
-open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd}
-set_property name gpiok [get_bd_ports gpio_out]
-save_bd_design
-Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
-Wrote  : <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/ui/bd_8fbff26c.ui> 
-reset_run synth_1
-INFO: [Project 1-1161] Replacing file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/utils_1/imports/synth_1/simple.dcp with file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/sensors96b.dcp
+Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
+Wrote  : <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/ui/bd_8fbff26c.ui> 
 launch_runs impl_1 -to_step write_bitstream -jobs 16
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
 WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
 WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
-Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
-Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v
-Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/sim/sensors96b.v
-Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/hdl/sensors96b_wrapper.v
-INFO: [BD 41-1029] Generation completed for the IP Integrator block simple_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_ooc.xdc'
+Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
+Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/synth/sensors96b.v
+Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/sim/sensors96b.v
+Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/hdl/sensors96b_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pl_in_pl_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pl_in_ps_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps_in_pl_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
-Exporting to file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/hw_handoff/sensors96b.hwh
-Generated Hardware Definition File c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.hwdef
+Exporting to file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/hw_handoff/sensors96b.hwh
+Generated Hardware Definition File c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/synth/sensors96b.hwdef
 INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
 INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_auto_pc_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_simple_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_pl_in_pl_out_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_pl_in_ps_out_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_ps_in_pl_out_0_0
 INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_auto_pc_0
-INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 9ac4a7c9abe3f12a to dir: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0.dcp to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0.dcp.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0.dcp
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_sim_netlist.v to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.v.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.v
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_sim_netlist.vhdl to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.vhdl.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.vhdl
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_stub.v to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.v.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.v
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_stub.vhdl to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.vhdl.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.vhdl
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP sensors96b_auto_pc_0, cache-ID = 9ac4a7c9abe3f12a; cache size = 4.437 MB.
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_simple_0_0
-[Sat Feb 15 00:17:19 2025] Launched sensors96b_simple_0_0_synth_1, synth_1...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_pl_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_ps_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_ps_in_pl_out_0_0
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+generate_target all [get_files  C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'sensors96b' - hence not re-generating.
+catch { config_ip_cache -export [get_ips -all sensors96b_pl_in_pl_out_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_pl_out_0_0
+catch { config_ip_cache -export [get_ips -all sensors96b_pl_in_ps_out_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_ps_out_0_0
+catch { config_ip_cache -export [get_ips -all sensors96b_ps_in_pl_out_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_ps_in_pl_out_0_0
+catch { config_ip_cache -export [get_ips -all sensors96b_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_auto_pc_0
+export_ip_user_files -of_objects [get_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd]
+launch_runs sensors96b_auto_pc_0_synth_1 sensors96b_pl_in_pl_out_0_0_synth_1 sensors96b_pl_in_ps_out_0_0_synth_1 sensors96b_ps_in_pl_out_0_0_synth_1 -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_pl_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_ps_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_ps_in_pl_out_0_0
+[Mon Feb 24 21:25:09 2025] Launched sensors96b_auto_pc_0_synth_1, sensors96b_pl_in_pl_out_0_0_synth_1, sensors96b_pl_in_ps_out_0_0_synth_1, sensors96b_ps_in_pl_out_0_0_synth_1...
 Run output will be captured here:
-sensors96b_simple_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/sensors96b_simple_0_0_synth_1/runme.log
-synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/runme.log
-[Sat Feb 15 00:17:19 2025] Launched impl_1...
-Run output will be captured here: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/impl_1/runme.log
-launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 1938.859 ; gain = 191.688
-save_project_as gpiok_blink C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink -force
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink'
-Wrote  : <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.srcs/sources_1/bd/sensors96b/ui/bd_8fbff26c.ui> 
-WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.cache/ip 
-INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
-WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
-WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
-import_files
-INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sensors96b_simple_0_0'
-INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sensors96b_simple_0_0'
-INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
-INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
-INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
-INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
-INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
-INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
-WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/mref/simple/component.xml. It will be created.
-update_module_reference sensors96b_simple_0_0
-INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
-WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
-WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
-INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
-WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
-WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
-Upgrading 'C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.srcs/sources_1/bd/sensors96b/sensors96b.bd'
-WARNING: [Vivado 12-3647] The given sub-design is not contained in the block fileset 'sensors96b_simple_0_0'. Sub-design: 'C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.srcs/sources_1/bd/sensors96b/ip/sensors96b_simple_0_0/sensors96b_simple_0_0.xci'.
-INFO: [IP_Flow 19-3420] Updated sensors96b_simple_0_0 to use current project options
-Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\gpiok_blink\gpiok_blink.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
-reset_run synth_1
-INFO: [Project 1-1161] Replacing file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.srcs/utils_1/imports/synth_1/simple.dcp with file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.runs/synth_1/sensors96b.dcp
+sensors96b_auto_pc_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_auto_pc_0_synth_1/runme.log
+sensors96b_pl_in_pl_out_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_pl_in_pl_out_0_0_synth_1/runme.log
+sensors96b_pl_in_ps_out_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_pl_in_ps_out_0_0_synth_1/runme.log
+sensors96b_ps_in_pl_out_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_ps_in_pl_out_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd] -directory C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.ip_user_files -ipstatic_source_dir C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/modelsim} {questa=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/questa} {riviera=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/riviera} {activehdl=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
 launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_pl_in_pl_out_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_pl_in_ps_out_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_ps_in_pl_out_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_pl_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_ps_out_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_ps_in_pl_out_0_0
+[Mon Feb 24 21:25:24 2025] Launched sensors96b_pl_in_pl_out_0_0_synth_1, sensors96b_pl_in_ps_out_0_0_synth_1, sensors96b_ps_in_pl_out_0_0_synth_1, sensors96b_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+sensors96b_pl_in_pl_out_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_pl_in_pl_out_0_0_synth_1/runme.log
+sensors96b_pl_in_ps_out_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_pl_in_ps_out_0_0_synth_1/runme.log
+sensors96b_ps_in_pl_out_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_ps_in_pl_out_0_0_synth_1/runme.log
+sensors96b_auto_pc_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_auto_pc_0_synth_1/runme.log
+synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/synth_1/runme.log
+[Mon Feb 24 21:25:24 2025] Launched impl_1...
+Run output will be captured here: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_module_reference sensors96b_pl_in_ps_out_0_0
+Upgrading 'C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd'
+INFO: [IP_Flow 19-3420] Updated sensors96b_pl_in_ps_out_0_0 to use current project options
+Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
+Wrote  : <C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/ui/bd_8fbff26c.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/utils_1/imports/synth_1/simple.dcp with file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/synth_1/sensors96b.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+ERROR: [Common 17-180] Spawn failed: No error
 WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
 WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_LPD(16)
-Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\gpiok_blink\gpiok_blink.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
-Verilog Output written to : C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/synth/sensors96b.v
-Verilog Output written to : C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/sim/sensors96b.v
-Verilog Output written to : C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/hdl/sensors96b_wrapper.v
-INFO: [BD 41-1029] Generation completed for the IP Integrator block simple_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_ooc.xdc'
+Wrote  : <C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\bd\sensors96b\sensors96b.bd> 
+Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/synth/sensors96b.v
+Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/sim/sensors96b.v
+Verilog Output written to : c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/hdl/sensors96b_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pl_in_ps_out_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
-Exporting to file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/hw_handoff/sensors96b.hwh
-Generated Hardware Definition File C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/synth/sensors96b.hwdef
+Exporting to file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/hw_handoff/sensors96b.hwh
+Generated Hardware Definition File c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/synth/sensors96b.hwdef
 INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
 INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_auto_pc_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_simple_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP sensors96b_pl_in_ps_out_0_0
 INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_auto_pc_0
-INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 9ac4a7c9abe3f12a to dir: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0.dcp to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0.dcp.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0.dcp
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_sim_netlist.v to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.v.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.v
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_sim_netlist.vhdl to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.vhdl.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.vhdl
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_stub.v to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.v.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.v
-INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_stub.vhdl to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.vhdl.
-INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.vhdl
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP sensors96b_auto_pc_0, cache-ID = 9ac4a7c9abe3f12a; cache size = 4.437 MB.
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_simple_0_0
-[Sat Feb 15 00:34:54 2025] Launched sensors96b_simple_0_0_synth_1, synth_1...
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 9ac4a7c9abe3f12a to dir: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0.dcp to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_sim_netlist.v to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_sim_netlist.vhdl to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_stub.v to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/ip/2023.2/9/a/9ac4a7c9abe3f12a/sensors96b_auto_pc_0_stub.vhdl to c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.gen/sources_1/bd/sensors96b/ip/sensors96b_auto_pc_0/sensors96b_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP sensors96b_auto_pc_0, cache-ID = 9ac4a7c9abe3f12a; cache size = 1.317 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_ps_out_0_0
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: sensors96b_pl_in_ps_out_0_0
+[Mon Feb 24 21:31:40 2025] Launched sensors96b_pl_in_ps_out_0_0_synth_1, synth_1...
 Run output will be captured here:
-sensors96b_simple_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.runs/sensors96b_simple_0_0_synth_1/runme.log
-synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.runs/synth_1/runme.log
-[Sat Feb 15 00:34:54 2025] Launched impl_1...
-Run output will be captured here: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink/gpiok_blink.runs/impl_1/runme.log
-launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2003.246 ; gain = 0.000
+sensors96b_pl_in_ps_out_0_0_synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/sensors96b_pl_in_ps_out_0_0_synth_1/runme.log
+synth_1: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/synth_1/runme.log
+[Mon Feb 24 21:31:40 2025] Launched impl_1...
+Run output will be captured here: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/utils_1/imports/synth_1/simple.dcp with file C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/synth_1/sensors96b.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Feb 24 22:19:39 2025] Launched synth_1...
+Run output will be captured here: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/synth_1/runme.log
+[Mon Feb 24 22:19:39 2025] Launched impl_1...
+Run output will be captured here: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\simple.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\ps_in_pl_out.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\ps_pl_interface\ps_pl_interface.srcs\sources_1\new\pl_in_ps_out.v:]

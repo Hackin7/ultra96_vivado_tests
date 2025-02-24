@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Feb 14 23:35:09 2025
-# Process ID: 15356
+# Start of session at: Mon Feb 24 21:07:50 2025
+# Process ID: 13180
 # Current directory: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2988 C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent83676 C:\Users\zunmun\Documents\Stuff\Github\WORK\Bumblebee\ultra96_vivado_tests\PYNQ\sensors96b\sensors96b.xpr
 # Log file: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/vivado.log
 # Journal file: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b\vivado.jou
 # Running On: HackerbookAce, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 33492 MB
@@ -14,33 +14,115 @@
 start_gui
 open_project C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.xpr
 update_compile_order -fileset sources_1
-open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd}
-create_bd_cell -type module -reference simple simple_0
-set_property location {5 1515 693} [get_bd_cells simple_0]
-set_property location {4 1311 694} [get_bd_cells simple_0]
-connect_bd_net [get_bd_pins simple_0/clk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
-create_bd_port -dir I LED
-set_property location {1769 667} [get_bd_ports LED]
-delete_bd_objs [get_bd_ports LED]
-create_bd_port -dir O LED
-set_property location {1714 692} [get_bd_ports LED]
-create_bd_port -dir O gpio_out
-startgroup
-connect_bd_net [get_bd_ports gpio_out] [get_bd_pins simple_0/led]
-endgroup
-set_property location {1708 680} [get_bd_ports gpio_out]
-set_property location {1715 693} [get_bd_ports gpio_out]
-save_bd_design
+save_project_as ps_pl_interface C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface -exclude_run_results -force
+import_files
+open_project C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.xpr
+current_project ps_pl_interface
+current_project sensors96b
+close_project
+export_ip_user_files -of_objects  [get_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/simple.v] -no_script -reset -force -quiet
+remove_files  C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/simple.v
+close [ open C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_pl_out.v w ]
+add_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_pl_out.v
 update_compile_order -fileset sources_1
-open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.srcs/sources_1/bd/sensors96b/sensors96b.bd}
-set_property name gpiok [get_bd_ports gpio_out]
+close [ open C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_ps_out.v w ]
+add_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/pl_in_ps_out.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/ps_in_pl_out.v w ]
+add_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/new/ps_in_pl_out.v
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd}
+delete_bd_objs [get_bd_intf_nets zynq_ultra_ps_e_0_GPIO_0] [get_bd_intf_ports GPIO_SENSORS]
+create_bd_port -dir I pl_in
+create_bd_cell -type module -reference pl_in_pl_out pl_in_pl_out_0
+create_bd_cell -type module -reference pl_in_ps_out pl_in_ps_out_0
+set_property location {5 1547 700} [get_bd_cells pl_in_pl_out_0]
+set_property location {-28 681} [get_bd_ports pl_in]
+connect_bd_net [get_bd_ports pl_in] [get_bd_pins pl_in_pl_out_0/pl_in]
+set_property location {1314 716} [get_bd_ports pl_in]
+set_property location {1773 690} [get_bd_ports pl_in]
+create_bd_port -dir I pl_out
+delete_bd_objs [get_bd_ports pl_out]
+create_bd_port -dir O pl_out_from_pl
+startgroup
+connect_bd_net [get_bd_ports pl_out_from_pl] [get_bd_pins pl_in_pl_out_0/pl_out]
+endgroup
+set_property location {1712 717} [get_bd_ports pl_out_from_pl]
+create_bd_cell -type module -reference ps_in_pl_out ps_in_pl_out_0
+connect_bd_net [get_bd_ports pl_in] [get_bd_pins pl_in_ps_out_0/A]
+create_bd_port -dir I pl_out_from_ps
+delete_bd_objs [get_bd_ports pl_out_from_ps]
+set_property location {1404 994} [get_bd_ports pl_in]
+create_bd_port -dir I pl_out_from_ps
+delete_bd_objs [get_bd_ports pl_out_from_ps]
+create_bd_port -dir O pl_out_from_ps
+connect_bd_net [get_bd_ports pl_out_from_ps] [get_bd_pins ps_in_pl_out_0/B]
+create_bd_port -dir I emgpio1
+delete_bd_objs [get_bd_ports emgpio1]
+create_bd_port -dir IO emgpio1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_0
+endgroup
+set_property location {4 1249 709} [get_bd_cells xlslice_0]
+startgroup
+connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/emio_gpio_o] [get_bd_pins xlslice_0/Din]
+endgroup
+startgroup
+set_property -dict [list \
+  CONFIG.DIN_FROM {1} \
+  CONFIG.DIN_TO {1} \
+  CONFIG.DIN_WIDTH {5} \
+] [get_bd_cells xlslice_0]
+endgroup
+startgroup
+set_property CONFIG.DIN_WIDTH {6} [get_bd_cells xlslice_0]
+endgroup
+startgroup
+endgroup
+set_property location {4 1263 984} [get_bd_cells xlslice_0]
+set_property location {4 1220 952} [get_bd_cells xlslice_0]
+set_property location {4 1228 1011} [get_bd_cells xlslice_0]
+delete_bd_objs [get_bd_ports emgpio1]
+create_bd_port -dir O emgpio1
+startgroup
+connect_bd_net [get_bd_ports emgpio1] [get_bd_pins xlslice_0/Dout]
+endgroup
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins ps_in_pl_out_0/A]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_1
+endgroup
+set_property -dict [list \
+  CONFIG.DIN_FROM {2} \
+  CONFIG.DIN_TO {2} \
+  CONFIG.DIN_WIDTH {6} \
+] [get_bd_cells xlslice_1]
+delete_bd_objs [get_bd_nets zynq_ultra_ps_e_0_emio_gpio_o]
+connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/emio_gpio_o] [get_bd_pins xlslice_0/Din]
+delete_bd_objs [get_bd_cells xlslice_1]
+connect_bd_net [get_bd_pins pl_in_ps_out_0/B] [get_bd_pins zynq_ultra_ps_e_0/emio_gpio_i]
+delete_bd_objs [get_bd_nets pl_in_ps_out_0_B]
 save_bd_design
-reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+generate_target all [get_files  C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd]
+catch { config_ip_cache -export [get_ips -all sensors96b_pl_in_pl_out_0_0] }
+catch { config_ip_cache -export [get_ips -all sensors96b_pl_in_ps_out_0_0] }
+catch { config_ip_cache -export [get_ips -all sensors96b_ps_in_pl_out_0_0] }
+catch { config_ip_cache -export [get_ips -all sensors96b_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd]
+launch_runs sensors96b_auto_pc_0_synth_1 sensors96b_pl_in_pl_out_0_0_synth_1 sensors96b_pl_in_ps_out_0_0_synth_1 sensors96b_ps_in_pl_out_0_0_synth_1 -jobs 16
+wait_on_run sensors96b_auto_pc_0_synth_1
+wait_on_run sensors96b_pl_in_pl_out_0_0_synth_1
+wait_on_run sensors96b_pl_in_ps_out_0_0_synth_1
+wait_on_run sensors96b_ps_in_pl_out_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.srcs/sources_1/bd/sensors96b/sensors96b.bd] -directory C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.ip_user_files -ipstatic_source_dir C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/modelsim} {questa=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/questa} {riviera=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/riviera} {activehdl=C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/ps_pl_interface/ps_pl_interface.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
 launch_runs impl_1 -to_step write_bitstream -jobs 16
 wait_on_run impl_1
-save_project_as gpiok_blink C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/gpiok_blink -force
-import_files
-update_module_reference sensors96b_simple_0_0
+update_module_reference sensors96b_pl_in_ps_out_0_0
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 16
 wait_on_run impl_1

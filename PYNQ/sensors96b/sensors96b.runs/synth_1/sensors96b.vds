@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Feb 14 22:50:32 2025
-# Process ID: 10316
+# Start of session at: Mon Feb 24 20:43:54 2025
+# Process ID: 53292
 # Current directory: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1
 # Command line: vivado.exe -log sensors96b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sensors96b.tcl
 # Log file: C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/sensors96b.vds
@@ -27,13 +27,13 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 30924
+INFO: [Synth 8-7075] Helper process launched with PID 83932
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1820.684 ; gain = 377.855
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1820.570 ; gain = 376.723
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'sensors96b' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:579]
-INFO: [Synth 8-6157] synthesizing module 'sensors96b_axi_uart16550_0_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_axi_uart16550_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'sensors96b_axi_uart16550_0_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_axi_uart16550_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sensors96b_axi_uart16550_0_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_axi_uart16550_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sensors96b_axi_uart16550_0_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_axi_uart16550_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'baudoutn' of module 'sensors96b_axi_uart16550_0_0' is unconnected for instance 'axi_uart16550_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:706]
 WARNING: [Synth 8-7071] port 'ddis' of module 'sensors96b_axi_uart16550_0_0' is unconnected for instance 'axi_uart16550_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:706]
 WARNING: [Synth 8-7071] port 'dtrn' of module 'sensors96b_axi_uart16550_0_0' is unconnected for instance 'axi_uart16550_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:706]
@@ -42,8 +42,8 @@ WARNING: [Synth 8-7071] port 'out2n' of module 'sensors96b_axi_uart16550_0_0' is
 WARNING: [Synth 8-7071] port 'rxrdyn' of module 'sensors96b_axi_uart16550_0_0' is unconnected for instance 'axi_uart16550_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:706]
 WARNING: [Synth 8-7071] port 'txrdyn' of module 'sensors96b_axi_uart16550_0_0' is unconnected for instance 'axi_uart16550_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:706]
 WARNING: [Synth 8-7023] instance 'axi_uart16550_0' of module 'sensors96b_axi_uart16550_0_0' has 35 connections declared, but only 28 given [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:706]
-INFO: [Synth 8-6157] synthesizing module 'sensors96b_axi_uart16550_1_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_axi_uart16550_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'sensors96b_axi_uart16550_1_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_axi_uart16550_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sensors96b_axi_uart16550_1_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_axi_uart16550_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sensors96b_axi_uart16550_1_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_axi_uart16550_1_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'baudoutn' of module 'sensors96b_axi_uart16550_1_0' is unconnected for instance 'axi_uart16550_1' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:735]
 WARNING: [Synth 8-7071] port 'ddis' of module 'sensors96b_axi_uart16550_1_0' is unconnected for instance 'axi_uart16550_1' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:735]
 WARNING: [Synth 8-7071] port 'dtrn' of module 'sensors96b_axi_uart16550_1_0' is unconnected for instance 'axi_uart16550_1' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:735]
@@ -53,8 +53,8 @@ WARNING: [Synth 8-7071] port 'rtsn' of module 'sensors96b_axi_uart16550_1_0' is 
 WARNING: [Synth 8-7071] port 'rxrdyn' of module 'sensors96b_axi_uart16550_1_0' is unconnected for instance 'axi_uart16550_1' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:735]
 WARNING: [Synth 8-7071] port 'txrdyn' of module 'sensors96b_axi_uart16550_1_0' is unconnected for instance 'axi_uart16550_1' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:735]
 WARNING: [Synth 8-7023] instance 'axi_uart16550_1' of module 'sensors96b_axi_uart16550_1_0' has 35 connections declared, but only 27 given [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:735]
-INFO: [Synth 8-6157] synthesizing module 'sensors96b_proc_sys_reset_0_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_proc_sys_reset_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'sensors96b_proc_sys_reset_0_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sensors96b_proc_sys_reset_0_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sensors96b_proc_sys_reset_0_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_proc_sys_reset_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'sensors96b_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:763]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'sensors96b_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:763]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'sensors96b_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:763]
@@ -65,11 +65,11 @@ INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1NWP8BY' (0#1) [
 INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1DJKDNS' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:145]
 INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1DJKDNS' (0#1) [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:145]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1EEP9YN' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:277]
-INFO: [Synth 8-6157] synthesizing module 'sensors96b_auto_pc_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'sensors96b_auto_pc_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sensors96b_auto_pc_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sensors96b_auto_pc_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1EEP9YN' (0#1) [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:277]
-INFO: [Synth 8-6157] synthesizing module 'sensors96b_xbar_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'sensors96b_xbar_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sensors96b_xbar_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sensors96b_xbar_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_xbar_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'sensors96b_xbar_0' is unconnected for instance 'xbar' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:1437]
 WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'sensors96b_xbar_0' is unconnected for instance 'xbar' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:1437]
 WARNING: [Synth 8-7023] instance 'xbar' of module 'sensors96b_xbar_0' has 40 connections declared, but only 38 given [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:1437]
@@ -84,8 +84,8 @@ INFO: [Synth 8-6157] synthesizing module 'sensors96b_xlconstant_0_0' [c:/Users/z
 INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_8_xlconstant' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ipshared/d390/hdl/xlconstant_v1_1_vl_rfs.v:68]
 INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_8_xlconstant' (0#1) [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ipshared/d390/hdl/xlconstant_v1_1_vl_rfs.v:68]
 INFO: [Synth 8-6155] done synthesizing module 'sensors96b_xlconstant_0_0' (0#1) [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/ip/sensors96b_xlconstant_0_0/synth/sensors96b_xlconstant_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'sensors96b_zynq_ultra_ps_e_0_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_zynq_ultra_ps_e_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'sensors96b_zynq_ultra_ps_e_0_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-10316-HackerbookAce/realtime/sensors96b_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sensors96b_zynq_ultra_ps_e_0_0' [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sensors96b_zynq_ultra_ps_e_0_0' (0#1) [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/.Xil/Vivado-53292-HackerbookAce/realtime/sensors96b_zynq_ultra_ps_e_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'maxigp2_awuser' of module 'sensors96b_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:873]
 WARNING: [Synth 8-7071] port 'maxigp2_aruser' of module 'sensors96b_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:873]
 WARNING: [Synth 8-7071] port 'emio_uart0_dtrn' of module 'sensors96b_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [c:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.gen/sources_1/bd/sensors96b/synth/sensors96b.v:873]
@@ -196,18 +196,18 @@ WARNING: [Synth 8-7129] Port In106[0] in module xlconcat_v2_1_5_xlconcat is eith
 WARNING: [Synth 8-7129] Port In107[0] in module xlconcat_v2_1_5_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1935.512 ; gain = 492.684
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1934.379 ; gain = 490.531
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1935.512 ; gain = 492.684
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1934.379 ; gain = 490.531
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1935.512 ; gain = 492.684
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1934.379 ; gain = 490.531
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1935.512 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1934.379 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -240,15 +240,15 @@ Parsing XDC File [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_
 Finished Parsing XDC File [C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1952.172 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1948.535 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1952.172 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1948.535 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1952.172 ; gain = 509.344
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1948.535 ; gain = 504.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -256,7 +256,7 @@ Start Loading Part and Timing Information
 Loading part: xczu3eg-sbva484-1-i
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1952.172 ; gain = 509.344
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1948.535 ; gain = 504.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -272,10 +272,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for xlconcat_1. (constraint file  aut
 Applied set_property KEEP_HIERARCHY = SOFT for xlconstant_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1952.172 ; gain = 509.344
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1948.535 ; gain = 504.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1952.172 ; gain = 509.344
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1948.535 ; gain = 504.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -298,25 +298,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1952.172 ; gain = 509.344
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1948.535 ; gain = 504.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 2463.879 ; gain = 1021.051
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2462.645 ; gain = 1018.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 2464.102 ; gain = 1021.273
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2462.719 ; gain = 1018.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 2474.039 ; gain = 1031.211
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2472.660 ; gain = 1028.812
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -334,37 +334,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -396,18 +396,18 @@ Report Cell Usage:
 |8     |OBUF                         |    16|
 +------+-----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 2489.816 ; gain = 1030.328
-Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 2489.816 ; gain = 1046.988
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 2488.453 ; gain = 1030.449
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2488.453 ; gain = 1044.605
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2501.914 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2500.508 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2526.211 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2525.609 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 10 instances were transformed.
   IBUF => IBUF (IBUFCTRL, INBUF): 10 instances
@@ -416,8 +416,8 @@ Synth Design complete | Checksum: 632b6a2e
 INFO: [Common 17-83] Releasing license: Synthesis
 58 Infos, 140 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:55 . Memory (MB): peak = 2526.211 ; gain = 2009.172
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2526.211 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 2525.609 ; gain = 2008.035
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2525.609 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/zunmun/Documents/Stuff/Github/WORK/Bumblebee/ultra96_vivado_tests/PYNQ/sensors96b/sensors96b.runs/synth_1/sensors96b.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file sensors96b_utilization_synth.rpt -pb sensors96b_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Feb 14 22:51:37 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 24 20:44:39 2025...
